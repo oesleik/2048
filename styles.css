@@ -1,0 +1,102 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#screen {
+  text-align: center;
+  display: inline-block;
+}
+
+#screen .score {
+  font-size: 22px;
+}
+
+#screen .table {
+  display: inline-block;
+  margin: 30px auto 0;
+  border: 5px solid #3E2723;
+  background-color: #E0E0E0;
+  border-radius: 10px;
+}
+
+#screen .block {
+  width: 64px;
+  height: 64px;
+  font-size: 22px;
+  line-height: 64px;
+  text-align: center;
+  vertical-align: middle;
+  color: #333333;
+
+  border-radius: 10px;
+  background-color: #E8F5E9;
+  border: 2px solid #9E9E9E;
+}
+
+#screen .block[data-value="2"] {
+  background-color: #C8E6C9;
+}
+
+#screen .block[data-value="4"] {
+  background-color: #A5D6A7;
+}
+
+#screen .block[data-value="8"] {
+  background-color: #81C784;
+}
+
+#screen .block[data-value="16"] {
+  background-color: #66BB6A;
+}
+
+#screen .block[data-value="32"] {
+  background-color: #4CAF50;
+}
+
+#screen .block[data-value="64"] {
+  background-color: #388E3C;
+}
+
+#screen .block[data-value="128"] {
+  background-color: #2E7D32;
+}
+
+#screen .block[data-value="256"] {
+  background-color: #1B5E20;
+}
+
+#screen .block[data-value="512"] {
+  background-color: #8D6E63;
+}
+
+#screen .block[data-value="1024"] {
+  background-color: #5D4037;
+  color: #FFFFFF;
+}
+
+#screen .block[data-value="2048"] {
+  background-color: #4E342E;
+  color: #FFFFFF;
+}
+
+#screen .block[data-value="4096"] {
+  background-color: #3E2723;
+  color: #FFFFFF;
+}
+
+#screen .block[data-value="8192"] {
+  background-color: #424242;
+  color: #FFFFFF;
+}
+
+#screen .block[data-value="16384"] {
+  background-color: #212121;
+  color: #FFFFFF;
+}
+
+#screen .block[data-value="32768"] {
+  background-color: #BF360C;
+  color: #FFFFFF;
+}
